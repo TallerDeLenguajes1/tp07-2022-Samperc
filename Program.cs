@@ -25,12 +25,12 @@ for (int i = 0; i <Lista1.Count; i++)
       i--;
     }
 }
-Console.WriteLine("Lista1: ");
+Console.WriteLine("----Lista1---- ");
 foreach (var Tarea in Lista1)
 {
     Tarea.Mostrar();
 }
-Console.WriteLine("Lista2: ");
+Console.WriteLine("----Lista2---- ");
 foreach (var Tarea in Lista2)
 {
     Tarea.Mostrar();
